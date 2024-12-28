@@ -1,0 +1,16 @@
+<nav class="bg-gray-800 p-4">
+  <div class="container mx-auto flex justify-between items-center">
+    <div class="text-white text-lg font-bold">
+      <a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">Rick & Morty </a>
+    </div>
+    <ul class="flex space-x-4">
+      <li>
+        <a routerLink="/personagens" routerLinkActive="active" ariaCurrentWhenActive="page" class="text-gray-300 hover:text-white">Personagens</a>
+      </li>
+      <li>
+        <a routerLink="/contato" routerLinkActive="active" ariaCurrentWhenActive="page" class="text-gray-300 hover:text-white">Contato</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<router-outlet />
